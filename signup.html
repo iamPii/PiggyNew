@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/signin.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/signup.css" />
+  </head>
+  <body>
+    <section style="background-color:" class="container">
+      <div class="whole">
+        <div class="in">
+          <div class="top">
+            <div class="top-first">
+              <div class="left-top-bottom">
+                <div style="" class="left">Let's get started 🎉</div>
+              </div>
+            </div>
+            <div style="color: #595b61; font-size: 13px" class="top-second">
+              <b
+                >Register to start saving and investing with Piggyvest today!</b
+              >
+            </div>
+          </div>
+          <form action="">
+            <div class="name-div">
+              <label for="name"
+                >First & Last Name <span style="color: red">*</span></label
+              >
+              <input id="name" type="text" placeholder="e.g John Doe" />
+            </div>
+            <div class="email-div" id="email-div">
+              <label for="email"
+                >Email Address <span style="color: red">*</span></label
+              >
+              <input id="email" type="email" placeholder="e.g john@gmail.com" />
+            </div>
+            <div class="Phone-div" id="Phone-div">
+              <label for="phone"
+                >Phone Number <span style="color: red">*</span></label
+              >
+              <input id="phone" type="number" placeholder="e.g 08123856865" />
+            </div>
+            <div class="Pass-div" id="Pass-div">
+              <label for="pass"
+                >Create a password<span style="color: red">*</span></label
+              >
+              <input id="pass" type="password" placeholder="Password" />
+            </div>
+            <div class="Confirm-div" id="Confirm-div">
+              <label for="conf"
+                >Confirm password<span style="color: red">*</span></label
+              >
+              <input id="conf" type="password" placeholder="Confirm Password" />
+            </div>
+            <div class="Ref-div" id="Ref-div">
+              <label for="ref"
+                >Enter a referral code (optional)<span style="color: red"
+                  >*</span
+                ></label
+              >
+              <input id="ref" type="text" placeholder="e.g 0814525522552" />
+            </div>
+            <div class="btn-div" id="btn-div">
+            <input id="btn" type="button" value=" Create New Account" >
+            </div>
+          </form>
+          <div class="lower">
+            <div class="lower-third">
+              <a style="color: #0d60dc" href="/signin.html">Go back</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      document.getElementById("name").addEventListener("input", function () {
+        var emailDiv = document.getElementById("email-div");
+        if (this.value.trim() !== "") {
+          emailDiv.style.display = "block";
+        } else {
+          emailDiv.style.display = "none";
+        }
+      });
+
+      document.getElementById("email").addEventListener("input", function () {
+        var phoneDiv = document.getElementById("Phone-div");
+        if (this.value.trim() !== "") {
+          phoneDiv.style.display = "block";
+        } else {
+          phoneDiv.style.display = "none";
+        }
+      });
+
+      document.getElementById("phone").addEventListener("input", function () {
+        var passDiv = document.getElementById("Pass-div");
+        if (this.value.trim() !== "") {
+          passDiv.style.display = "block";
+        } else {
+          passDiv.style.display = "none";
+        }
+      });
+
+      document.getElementById("pass").addEventListener("input", function () {
+        var confirmDiv = document.getElementById("Confirm-div");
+        if (this.value.trim() !== "") {
+          confirmDiv.style.display = "block";
+        } else {
+          confirmDiv.style.display = "none";
+        }
+      });
+
+      document.getElementById("conf").addEventListener("input", function () {
+        var refDiv = document.getElementById("Ref-div");
+        if (this.value.trim() !== "") {
+          refDiv.style.display = "block";
+        } else {
+          refDiv.style.display = "none";
+        }
+      });
+    </script>
+  </body>
+</html>

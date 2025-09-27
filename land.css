@@ -1,0 +1,286 @@
+* {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.container {
+  background-color: #f2f7f8;
+}
+.all {
+  background-color: #f2f7f8;
+}
+.mother {
+  background-color: #f2f7f8;
+}
+.overall {
+  display: flex;
+  margin-top: 150px;
+  gap: 200px;
+}
+.top-right {
+  display: flex;
+  align-content: center;
+  gap: 20px;
+  margin-top: 10px;
+  justify-content: center;
+}
+.left {
+  max-width: 500px;
+}
+.left-first {
+  background-color: #0089ff;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 0px 10px 0px;
+  border-radius: 20px;
+  text-align: center;
+}
+.left-first:hover {
+  background-color: black;
+}
+.left-second {
+  font-size: 48px;
+  font-weight: bold;
+}
+.left-second-media {
+  display: none;
+  font-size: 48px;
+  font-weight: bold;
+}
+.left-third {
+  font-size: 20px;
+  margin-top: 25px;
+}
+.get {
+  display: flex;
+  gap: 10px;
+}
+.left-fourth {
+  width: 170px;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 400;
+}
+.playstore {
+  width: 170px;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 400;
+}
+/* .left-fourth::before{ 
+    content: url(/whiteAppleLogo.svg);
+    width: 10px;
+}*/
+.right {
+  padding: 10px;
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  position: relative;
+  /* margin-left:  auto; */
+}
+.right img {
+  margin-top: -80px;
+}
+.left-first::before {
+}
+.frame1 {
+  position: absolute;
+  bottom: 80%;
+  right: 70%;
+}
+.frame2 {
+  position: absolute;
+  bottom: 80%;
+  left: 70%;
+}
+.frame3 {
+  position: absolute;
+  bottom: 50%;
+  right: 70%;
+}
+.frame4 {
+  position: absolute;
+  bottom: 45%;
+  left: 70%;
+}
+.frame5 {
+  position: absolute;
+  bottom: 15%;
+  right: 70%;
+}
+.frame6 {
+  position: absolute;
+  bottom: 1%;
+  left: 70%;
+}
+.section-two {
+  display: flex;
+  gap: 15px;
+  margin-top: 102px;
+  /* padding: 8px; */
+  padding-bottom: 100px;
+}
+.security-top {
+  font-size: 24px;
+  font-weight: 600;
+}
+.security-second {
+  margin-top: 16px;
+}
+.security-third {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.section-three {
+  justify-self: center;
+  padding: 40px;
+}
+.section-three-first {
+  font-size: 48px;
+  font-weight: 700;
+}
+.section-three-second {
+  font-size: 24px;
+  margin-top: 18px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 450px);
+  grid-template-rows: repeat(3, 450px);
+  gap: 15px;
+  justify-content: center;
+}
+.grid-one{
+    background-color: white;
+    border-radius: 10px;
+
+}
+.grid-two{
+    background-color: white;
+    border-radius: 10px;
+    ;
+}
+.grid-three{
+    background-color: white;
+    border-radius: 10px;
+}
+.grid-four{
+    background-color: white;
+    border-radius: 10px;
+}
+.grid-five{
+   background-color: white;
+    border-radius: 10px;
+}
+.grid-six{
+    background-color: white;
+    border-radius: 10px;
+}
+ /* .grid-one:hover{  
+  background-color: #0f60d6;
+color: white;}*/
+.grid-one:hover,
+.grid-one:hover * {
+  color: #fff;
+  
+  background-color: #0f60d6;
+}
+.in-grid1:hover{ 
+}
+.grid-two:hover,
+.grid-two:hover * {
+  color: #fff;
+  
+  background-color: #2295f2;
+}
+.grid-three:hover,
+.grid-three:hover * {
+    color: white;
+  background-color: #069b40;
+}
+.grid-four:hover,
+.grid-four:hover * {
+    color: white;
+  background-color: #ea288e;
+}
+.grid-five:hover,
+.grid-five:hover * {
+    color: white;
+  background-color: #0c1825;
+}
+.grid-six:hover,
+.grid-six:hover * {
+    color: white;
+  background-color: #ff783c;
+}
+.in-grid1{
+    margin: 30px 0px 0px 20px;
+}
+.in-grid2{
+    margin: 30px 0px 0px 20px;
+}
+.in-grid3{
+    margin: 30px 0px 0px 20px;
+}
+.in-grid4{
+    margin: 30px 0px 0px 20px;
+}
+.in-grid5{
+    margin: 30px 0px 0px 20px;
+}
+.in-grid6{
+    margin: 30px 0px 0px 20px;
+}
+.in-grid1-top{
+    color: #003399;
+}
+.in-grid2-top{
+    color: #3296ff;;
+}
+.in-grid3-top{
+    color: #069b40;
+}
+.in-grid4-top{
+    color: #ea288e;
+}
+.in-grid5-top{
+    color: #0c1825;
+}
+.in-grid6-top{
+    color: #ff783c;
+}
+.b1 {
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 0px 30px 0px 30px;
+}
+.b2 {
+  border: #122231;
+  border-radius: 10px;
+  background-color: #122231;
+  padding: 20px;
+}
+@media screen and (max-width: 766px) and (min-width: 50px) {
+  .top-right {
+    display: none;
+  }
+}
+@media screen and (max-width: 1204px) and (min-width: 50px) {
+  .overall {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .left-second {
+    display: none;
+  }
+  .left-second-media {
+    display: block;
+  }
+}

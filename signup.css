@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+.whole{
+    margin-top: 70px;
+}
+#name{
+     padding: 15px 10px;
+    background-color: #ebebeb;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 5px;
+}
+#email{
+     padding: 15px 10px;
+    background-color: #ebebeb;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 5px;
+}
+.in {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.email-div{
+    display: none;
+}
+.Phone-div{
+    display: none;
+}
+.Pass-div{
+    display: none;
+}
+.Confirm-div{
+    display: none;
+}
+.Ref-div{
+    display: none;
+}
+#phone{
+      padding: 15px 10px;
+    background-color: #ebebeb;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 5px;
+}
+#pass{
+      padding: 15px 10px;
+    background-color: #ebebeb;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 5px;
+}
+#conf{
+      padding: 15px 10px;
+    background-color: #ebebeb;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 5px;
+}
+#ref{
+      padding: 15px 10px;
+    background-color: #ebebeb;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 5px;
+}
+#btn{
+     padding: 15px 10px;
+    background-color: #0d60dc ;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 35px;
+}
+
+#name:active + .email-div{
+    display: block;
+}

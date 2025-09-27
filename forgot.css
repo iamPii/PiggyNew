@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+.all {
+  margin-top: 70px;
+}
+.top-second {
+  margin-top: 10px;
+}
+#email {
+  padding: 15px 10px;
+  background-color: #ebebeb;
+  border: none;
+  border-radius: 8px;
+  margin-top: 5px;
+  width: 100%;
+}
+#button {
+  padding: 15px 10px;
+  background-color: #0d60dc;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  margin-top: 35px;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  #email,
+  #button {
+    max-width: 100%;
+    padding: 15px 10px;
+  }
+}
